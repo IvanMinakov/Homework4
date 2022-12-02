@@ -3,9 +3,10 @@ int a = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите число B");
 int b = Convert.ToInt32(Console.ReadLine());
 
-void Power(int c)
+void Power()
 {
-double power = (Math.Pow(a,b));
+    double power = (Math.Pow(a, b));
+    Console.WriteLine($"Число {a} в степени {b} = {power}");
 }
 
-Console.WriteLine($"Число {a} в степени {b} = {power}");
+Power();
